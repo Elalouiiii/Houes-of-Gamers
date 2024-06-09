@@ -30,7 +30,7 @@ const Header = () => {
         <header >
             <Navbar bg='dark' fixed='top'>
                 <Container>
-                    <Navbar.Brand href="#home" className={style.white}>House of gamers</Navbar.Brand>
+                    <Navbar.Brand href="#home" className={style.white}>House of gamers Aloui</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text onClick={handleShow}>
