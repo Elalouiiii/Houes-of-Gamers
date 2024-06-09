@@ -1,0 +1,48 @@
+.navbar-text {
+    position: relative;
+    cursor: pointer;
+}
+
+span.badge {
+    position: absolute;
+    top: 0;
+    right: -8px;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.canvas img {
+    width: 30%;
+    padding: 2%;
+}
+.canvas {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 4%;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+.clear{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100%;
+}
+
+.btn-group{
+    border: 0.5px solid rgb(205, 205, 205);
+    
+}
+.btn-light{
+    border: 0.5px solid rgb(220, 210, 210);
+}

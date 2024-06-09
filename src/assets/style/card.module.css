@@ -1,0 +1,47 @@
+.card{
+    flex-basis: 26%;
+    border: .5px solid #dadada;
+    margin-top: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.cardImage{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 320px;
+}
+
+.description{
+    padding: .6rem .8rem;
+}
+.brand{
+    margin-block: 1rem;
+}
+
+.rating {
+    color: gold;
+}
+.price{
+    font-size: 1.4rem;
+}
+.add{
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: black;
+    padding-block:1.8rem ;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .2s ease-in ;
+}
+.card:hover .add{
+    opacity: .9;
+}
+.add span{
+    padding-right: 1rem;
+}

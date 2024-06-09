@@ -1,0 +1,9 @@
+.listCard{
+    margin-top: 2rem;
+}
+
+.bottomContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
